@@ -1,0 +1,292 @@
+[
+  {
+    "id": "job_python_dev",
+    "title": "Python Developer",
+    "category": "Backend Engineering",
+    "experience_level": "Entry to Mid Level",
+    "description": "Design, build, and maintain scalable server-side applications, microservices, and RESTful APIs using Python, FastAPI or Django, with robust database integrations, asynchronous processing, and automated unit testing.",
+    "required_skills": [
+      {"name": "Python", "weight": 1.0, "importance": "Critical"},
+      {"name": "FastAPI", "weight": 0.9, "importance": "High"},
+      {"name": "REST API", "weight": 0.85, "importance": "High"},
+      {"name": "PostgreSQL", "weight": 0.8, "importance": "High"},
+      {"name": "Git", "weight": 0.7, "importance": "Medium"},
+      {"name": "PyTest", "weight": 0.65, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "Docker", "weight": 0.6, "importance": "Low"},
+      {"name": "Redis", "weight": 0.55, "importance": "Low"},
+      {"name": "MongoDB", "weight": 0.5, "importance": "Low"},
+      {"name": "Linux", "weight": 0.5, "importance": "Low"},
+      {"name": "Celery", "weight": 0.45, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "Python for Everybody Specialization", "type": "Course", "url": "https://www.py4e.com/", "provider": "PY4E Free", "estimated_hours": 20},
+      {"title": "FastAPI Official Documentation & Tutorial", "type": "Docs", "url": "https://fastapi.tiangolo.com/tutorial/", "provider": "FastAPI Docs", "estimated_hours": 15},
+      {"title": "PostgreSQL Tutorial for Beginners", "type": "Interactive", "url": "https://www.postgresqltutorial.com/", "provider": "PostgreSQLTutorial", "estimated_hours": 12},
+      {"title": "Python Testing with pytest", "type": "Guide", "url": "https://docs.pytest.org/en/stable/", "provider": "pytest Documentation", "estimated_hours": 8}
+    ],
+    "interview_topics": [
+      "Python Data Structures and Memory Management",
+      "Asynchronous Programming with asyncio in Python",
+      "Building and Documenting RESTful APIs with FastAPI",
+      "Database Modeling, Relational Integrity & ORMs",
+      "Unit Testing, Mocking, and Dependency Injection"
+    ],
+    "career_suitability_summary": "Ideal for developers who enjoy writing clean, readable code and building high-performance backend APIs and asynchronous services."
+  },
+  {
+    "id": "job_java_dev",
+    "title": "Java Developer",
+    "category": "Enterprise Backend",
+    "experience_level": "Entry to Mid Level",
+    "description": "Develop and maintain robust, high-volume enterprise services, REST microservices, and secure distributed backend systems using modern Java, Spring Boot, Hibernate, and relational databases.",
+    "required_skills": [
+      {"name": "Java", "weight": 1.0, "importance": "Critical"},
+      {"name": "Spring Boot", "weight": 0.95, "importance": "High"},
+      {"name": "REST API", "weight": 0.85, "importance": "High"},
+      {"name": "MySQL", "weight": 0.8, "importance": "High"},
+      {"name": "Git", "weight": 0.7, "importance": "Medium"},
+      {"name": "JUnit", "weight": 0.65, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "Microservices", "weight": 0.65, "importance": "Medium"},
+      {"name": "Docker", "weight": 0.6, "importance": "Low"},
+      {"name": "PostgreSQL", "weight": 0.55, "importance": "Low"},
+      {"name": "AWS", "weight": 0.5, "importance": "Low"},
+      {"name": "Redis", "weight": 0.45, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "Java Programming MOOC", "type": "Course", "url": "https://java-programming.mooc.fi/", "provider": "University of Helsinki", "estimated_hours": 30},
+      {"title": "Spring Boot Quickstart", "type": "Guide", "url": "https://spring.io/quickstart", "provider": "Spring.io", "estimated_hours": 18},
+      {"title": "Relational Databases with MySQL", "type": "Course", "url": "https://dev.mysql.com/doc/", "provider": "MySQL Docs", "estimated_hours": 12},
+      {"title": "JUnit 5 User Guide", "type": "Docs", "url": "https://junit.org/junit5/docs/current/user-guide/", "provider": "JUnit Team", "estimated_hours": 8}
+    ],
+    "interview_topics": [
+      "Core Java OOP Concepts, Collections, Multithreading",
+      "Spring Boot Dependency Injection and Inversion of Control",
+      "JPA and Hibernate Transaction Management",
+      "Microservice Resiliency and API Design",
+      "JUnit Testing and Mockito Verification"
+    ],
+    "career_suitability_summary": "Suited for engineers who want to work on large-scale banking, telecom, or enterprise distributed applications."
+  },
+  {
+    "id": "job_fullstack_dev",
+    "title": "Full Stack Developer",
+    "category": "Full Stack Engineering",
+    "experience_level": "Entry to Mid Level",
+    "description": "Architect and deliver end-to-end web applications combining intuitive, responsive client interfaces in React.js with reliable, high-throughput backend services and secure database operations.",
+    "required_skills": [
+      {"name": "JavaScript", "weight": 1.0, "importance": "Critical"},
+      {"name": "React.js", "weight": 0.95, "importance": "Critical"},
+      {"name": "Node.js", "weight": 0.9, "importance": "High"},
+      {"name": "MongoDB", "weight": 0.8, "importance": "High"},
+      {"name": "REST API", "weight": 0.8, "importance": "High"},
+      {"name": "HTML5", "weight": 0.75, "importance": "Medium"},
+      {"name": "CSS3", "weight": 0.75, "importance": "Medium"},
+      {"name": "Git", "weight": 0.7, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "TypeScript", "weight": 0.75, "importance": "Medium"},
+      {"name": "Tailwind CSS", "weight": 0.65, "importance": "Low"},
+      {"name": "Express.js", "weight": 0.65, "importance": "Medium"},
+      {"name": "Docker", "weight": 0.55, "importance": "Low"},
+      {"name": "PostgreSQL", "weight": 0.5, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "The Odin Project - Full Stack JavaScript", "type": "Curriculum", "url": "https://www.theodinproject.com/", "provider": "The Odin Project", "estimated_hours": 45},
+      {"title": "Full Stack Open", "type": "Course", "url": "https://fullstackopen.com/en/", "provider": "University of Helsinki", "estimated_hours": 40},
+      {"title": "React Official Documentation", "type": "Docs", "url": "https://react.dev/", "provider": "React Core Team", "estimated_hours": 20},
+      {"title": "Node.js Best Practices", "type": "Guide", "url": "https://github.com/goldbergyoni/nodebestpractices", "provider": "Community", "estimated_hours": 10}
+    ],
+    "interview_topics": [
+      "JavaScript Event Loop, Closures, and Async/Await",
+      "React Component Lifecycle, State Management, and Hooks",
+      "Building Secure Authentication (JWT, Cookies, Sessions)",
+      "Database Schema Design & Query Optimization",
+      "Full Stack Deployment, CI/CD, and Web Performance"
+    ],
+    "career_suitability_summary": "Perfect for versatile problem solvers who love crafting user-friendly interfaces as much as robust server-side logic."
+  },
+  {
+    "id": "job_frontend_dev",
+    "title": "Frontend Developer",
+    "category": "Frontend Engineering",
+    "experience_level": "Entry to Mid Level",
+    "description": "Create pixel-perfect, accessible, and ultra-responsive user interfaces for modern web applications using React.js, modern JavaScript/TypeScript, and utility-first styling frameworks.",
+    "required_skills": [
+      {"name": "JavaScript", "weight": 1.0, "importance": "Critical"},
+      {"name": "React.js", "weight": 0.95, "importance": "Critical"},
+      {"name": "HTML5", "weight": 0.85, "importance": "High"},
+      {"name": "CSS3", "weight": 0.85, "importance": "High"},
+      {"name": "Tailwind CSS", "weight": 0.8, "importance": "High"},
+      {"name": "Git", "weight": 0.7, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "TypeScript", "weight": 0.8, "importance": "High"},
+      {"name": "Next.js", "weight": 0.7, "importance": "Medium"},
+      {"name": "Redux", "weight": 0.6, "importance": "Medium"},
+      {"name": "Responsive Design", "weight": 0.6, "importance": "Medium"},
+      {"name": "Jest", "weight": 0.5, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "MDN Web Docs - Frontend Web Developer", "type": "Docs", "url": "https://developer.mozilla.org/en-US/docs/Learn", "provider": "Mozilla", "estimated_hours": 30},
+      {"title": "Learn React - Official Interactive Guide", "type": "Interactive", "url": "https://react.dev/learn", "provider": "React Team", "estimated_hours": 20},
+      {"title": "Tailwind CSS from Scratch", "type": "Guide", "url": "https://tailwindcss.com/docs", "provider": "Tailwind Labs", "estimated_hours": 10},
+      {"title": "JavaScript.info - Modern JavaScript Tutorial", "type": "Interactive", "url": "https://javascript.info/", "provider": "JavaScript.info", "estimated_hours": 25}
+    ],
+    "interview_topics": [
+      "DOM Manipulation, Browser Rendering Pipeline, and Core Web Vitals",
+      "React Component Composition, Custom Hooks, and Virtual DOM",
+      "State Management (Context API vs Redux Toolkit)",
+      "Cross-browser Responsive Design and Web Accessibility (WCAG)",
+      "Client-side Routing, Code-Splitting, and Asset Optimization"
+    ],
+    "career_suitability_summary": "Ideal for creative coders who care deeply about design fidelity, user experience, and slick interactive animations."
+  },
+  {
+    "id": "job_backend_dev",
+    "title": "Backend Developer",
+    "category": "Backend Engineering",
+    "experience_level": "Entry to Mid Level",
+    "description": "Architect and optimize backend infrastructure, robust data storage tiers, REST & GraphQL endpoints, authentication gateways, and caching systems with high availability and security in mind.",
+    "required_skills": [
+      {"name": "Python", "weight": 0.95, "importance": "Critical"},
+      {"name": "Node.js", "weight": 0.9, "importance": "High"},
+      {"name": "REST API", "weight": 0.9, "importance": "Critical"},
+      {"name": "PostgreSQL", "weight": 0.85, "importance": "High"},
+      {"name": "MongoDB", "weight": 0.8, "importance": "High"},
+      {"name": "Git", "weight": 0.7, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "Docker", "weight": 0.75, "importance": "Medium"},
+      {"name": "Redis", "weight": 0.7, "importance": "Medium"},
+      {"name": "Linux", "weight": 0.6, "importance": "Medium"},
+      {"name": "Microservices", "weight": 0.6, "importance": "Medium"},
+      {"name": "CI/CD", "weight": 0.55, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "Backend Engineering Roadmap & Guide", "type": "Roadmap", "url": "https://roadmap.sh/backend", "provider": "Roadmap.sh", "estimated_hours": 35},
+      {"title": "Database Internals and SQL Design", "type": "Guide", "url": "https://use-the-index-luke.com/", "provider": "Use The Index, Luke", "estimated_hours": 15},
+      {"title": "Docker Getting Started", "type": "Docs", "url": "https://docs.docker.com/get-started/", "provider": "Docker", "estimated_hours": 10},
+      {"title": "Designing Data-Intensive Applications", "type": "Book Reference", "url": "https://dataintensive.net/", "provider": "O'Reilly", "estimated_hours": 40}
+    ],
+    "interview_topics": [
+      "Relational vs NoSQL Database Selection and Indexing",
+      "API Security: OAuth2, JWT, Rate Limiting, and CORS",
+      "Caching Strategies with Redis (Write-through vs Cache-aside)",
+      "Database Transactions, Isolation Levels, and ACID Guarantees",
+      "Containerization with Docker and Microservice Communication"
+    ],
+    "career_suitability_summary": "Tailored for engineers who enjoy system architecture, database performance tuning, server security, and data consistency."
+  },
+  {
+    "id": "job_data_analyst",
+    "title": "Data Analyst",
+    "category": "Data & Analytics",
+    "experience_level": "Entry to Mid Level",
+    "description": "Transform messy raw datasets into actionable commercial insights by authoring complex SQL queries, building interactive analytical dashboards, performing statistical analysis, and visualizing data trends.",
+    "required_skills": [
+      {"name": "SQL", "weight": 1.0, "importance": "Critical"},
+      {"name": "Python", "weight": 0.9, "importance": "High"},
+      {"name": "Pandas", "weight": 0.9, "importance": "High"},
+      {"name": "Data Visualization", "weight": 0.85, "importance": "High"},
+      {"name": "NumPy", "weight": 0.75, "importance": "Medium"},
+      {"name": "Git", "weight": 0.6, "importance": "Low"}
+    ],
+    "optional_skills": [
+      {"name": "Scikit-Learn", "weight": 0.65, "importance": "Medium"},
+      {"name": "PostgreSQL", "weight": 0.6, "importance": "Medium"},
+      {"name": "MySQL", "weight": 0.55, "importance": "Low"},
+      {"name": "Machine Learning", "weight": 0.5, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "SQL for Data Science", "type": "Course", "url": "https://mode.com/sql-tutorial/", "provider": "Mode Analytics", "estimated_hours": 20},
+      {"title": "Python for Data Analysis", "type": "Book/Tutorial", "url": "https://wesmckinney.com/book/", "provider": "Wes McKinney", "estimated_hours": 25},
+      {"title": "Data Visualization with Seaborn and Matplotlib", "type": "Guide", "url": "https://seaborn.pydata.org/tutorial.html", "provider": "PyData", "estimated_hours": 12},
+      {"title": "Google Data Analytics Certificate Guide", "type": "Overview", "url": "https://grow.google/certificates/data-analytics/", "provider": "Google", "estimated_hours": 30}
+    ],
+    "interview_topics": [
+      "Advanced SQL: Window Functions, CTEs, Joins, Group By",
+      "Exploratory Data Analysis (EDA) Workflow with Pandas",
+      "Handling Missing Data, Outliers, and Data Cleaning Strategies",
+      "Statistical Concepts: Mean, Median, Variance, P-value, Distributions",
+      "Translating Business Questions into Quantitative Visual Metrics"
+    ],
+    "career_suitability_summary": "Great for analytical thinkers who love discovering trends, crafting clear visual reports, and driving business decisions through data."
+  },
+  {
+    "id": "job_ml_engineer",
+    "title": "Machine Learning Engineer",
+    "category": "Artificial Intelligence",
+    "experience_level": "Entry to Mid Level",
+    "description": "Design, train, evaluate, and deploy predictive machine learning and deep learning models into production environments, utilizing state-of-the-art NLP, feature engineering, and model serving pipelines.",
+    "required_skills": [
+      {"name": "Python", "weight": 1.0, "importance": "Critical"},
+      {"name": "Machine Learning", "weight": 0.95, "importance": "Critical"},
+      {"name": "Scikit-Learn", "weight": 0.9, "importance": "High"},
+      {"name": "Pandas", "weight": 0.85, "importance": "High"},
+      {"name": "NumPy", "weight": 0.85, "importance": "High"},
+      {"name": "Deep Learning", "weight": 0.75, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "TensorFlow", "weight": 0.75, "importance": "Medium"},
+      {"name": "PyTorch", "weight": 0.75, "importance": "Medium"},
+      {"name": "Natural Language Processing", "weight": 0.7, "importance": "Medium"},
+      {"name": "FastAPI", "weight": 0.65, "importance": "Medium"},
+      {"name": "Docker", "weight": 0.6, "importance": "Low"},
+      {"name": "Large Language Models", "weight": 0.6, "importance": "Medium"}
+    ],
+    "learning_resources": [
+      {"title": "Machine Learning Specialization", "type": "Course", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "provider": "DeepLearning.AI / Stanford", "estimated_hours": 40},
+      {"title": "Scikit-Learn User Guide & Tutorials", "type": "Docs", "url": "https://scikit-learn.org/stable/user_guide.html", "provider": "Scikit-Learn Community", "estimated_hours": 25},
+      {"title": "Fast.ai - Practical Deep Learning for Coders", "type": "Course", "url": "https://course.fast.ai/", "provider": "Fast.ai", "estimated_hours": 35},
+      {"title": "Hugging Face NLP Course", "type": "Interactive", "url": "https://huggingface.co/learn/nlp-course", "provider": "Hugging Face", "estimated_hours": 20}
+    ],
+    "interview_topics": [
+      "Supervised vs Unsupervised Learning Algorithms & Tradeoffs",
+      "Feature Engineering, Regularization (L1/L2), and Overfitting",
+      "Evaluation Metrics: Precision, Recall, F1-Score, ROC-AUC, RMSE",
+      "Model Deployment Pipelines (REST API serving with FastAPI and Docker)",
+      "Neural Network Architecture, Activation Functions, and Backpropagation"
+    ],
+    "career_suitability_summary": "Best for software engineers with strong mathematical intuition who want to build smart algorithms and AI features."
+  },
+  {
+    "id": "job_software_tester",
+    "title": "Software Tester",
+    "category": "Quality Assurance",
+    "experience_level": "Entry to Mid Level",
+    "description": "Ensure high software quality and reliability across web and API applications by designing comprehensive test cases, executing automated end-to-end testing, verifying API contracts, and diagnosing defects.",
+    "required_skills": [
+      {"name": "Selenium", "weight": 0.95, "importance": "Critical"},
+      {"name": "Postman", "weight": 0.9, "importance": "High"},
+      {"name": "PyTest", "weight": 0.85, "importance": "High"},
+      {"name": "Git", "weight": 0.75, "importance": "Medium"},
+      {"name": "Jira", "weight": 0.7, "importance": "Medium"},
+      {"name": "Python", "weight": 0.7, "importance": "Medium"}
+    ],
+    "optional_skills": [
+      {"name": "JUnit", "weight": 0.65, "importance": "Medium"},
+      {"name": "Cypress", "weight": 0.65, "importance": "Medium"},
+      {"name": "CI/CD", "weight": 0.6, "importance": "Low"},
+      {"name": "JMeter", "weight": 0.55, "importance": "Low"},
+      {"name": "JavaScript", "weight": 0.5, "importance": "Low"}
+    ],
+    "learning_resources": [
+      {"title": "Selenium WebDriver with Python / Java", "type": "Docs", "url": "https://www.selenium.dev/documentation/", "provider": "Selenium.dev", "estimated_hours": 20},
+      {"title": "Postman API Testing Academy", "type": "Interactive", "url": "https://academy.postman.com/", "provider": "Postman", "estimated_hours": 12},
+      {"title": "Test Automation University", "type": "Curriculum", "url": "https://testautomationu.applitools.com/", "provider": "TAU", "estimated_hours": 25},
+      {"title": "Software Testing Methodologies and QA Fundamentals", "type": "Guide", "url": "https://www.guru99.com/software-testing.html", "provider": "Guru99", "estimated_hours": 15}
+    ],
+    "interview_topics": [
+      "Test Pyramid: Unit, Integration, System, and Acceptance Testing",
+      "Writing Robust Automation Scripts with Selenium WebDriver and Page Object Model",
+      "API Testing Strategies: Status codes, Payloads, Header validations, Schema checks",
+      "Defect Life Cycle, Severity vs Priority, and Test Reporting",
+      "Performance and Load Testing basics using JMeter"
+    ],
+    "career_suitability_summary": "Excels for detail-oriented professionals passionate about finding edge cases, building automated regression suites, and ensuring bug-free software releases."
+  }
+]

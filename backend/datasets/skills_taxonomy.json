@@ -1,0 +1,120 @@
+{
+  "categories": {
+    "programming_languages": {
+      "display_name": "Programming Languages",
+      "skills": [
+        {"name": "Python", "aliases": ["python", "python3", "py"]},
+        {"name": "Java", "aliases": ["java", "core java", "java 8", "java 11", "java 17", "java 21"]},
+        {"name": "JavaScript", "aliases": ["javascript", "js", "ecmascript", "es6", "es6+"]},
+        {"name": "TypeScript", "aliases": ["typescript", "ts"]},
+        {"name": "C++", "aliases": ["c++", "cpp"]},
+        {"name": "C#", "aliases": ["c#", "csharp", "c sharp"]},
+        {"name": "C", "aliases": ["c language"]},
+        {"name": "Go", "aliases": ["go", "golang"]},
+        {"name": "Rust", "aliases": ["rust", "rustlang"]},
+        {"name": "PHP", "aliases": ["php", "php8"]},
+        {"name": "Ruby", "aliases": ["ruby"]},
+        {"name": "Kotlin", "aliases": ["kotlin"]},
+        {"name": "Swift", "aliases": ["swift"]},
+        {"name": "SQL", "aliases": ["sql", "structured query language"]},
+        {"name": "HTML5", "aliases": ["html", "html5"]},
+        {"name": "CSS3", "aliases": ["css", "css3"]}
+      ]
+    },
+    "frontend": {
+      "display_name": "Frontend Technologies",
+      "skills": [
+        {"name": "React.js", "aliases": ["react", "react.js", "reactjs"]},
+        {"name": "Vue.js", "aliases": ["vue", "vue.js", "vuejs", "vue3"]},
+        {"name": "Angular", "aliases": ["angular", "angularjs", "angular 2+"]},
+        {"name": "Next.js", "aliases": ["next.js", "nextjs", "next"]},
+        {"name": "Tailwind CSS", "aliases": ["tailwind", "tailwindcss", "tailwind css"]},
+        {"name": "Bootstrap", "aliases": ["bootstrap", "bootstrap 5"]},
+        {"name": "Redux", "aliases": ["redux", "redux toolkit", "rtk"]},
+        {"name": "Sass", "aliases": ["sass", "scss"]},
+        {"name": "jQuery", "aliases": ["jquery"]},
+        {"name": "Webpack", "aliases": ["webpack"]},
+        {"name": "Vite", "aliases": ["vite", "vite.js"]},
+        {"name": "Responsive Design", "aliases": ["responsive design", "mobile-first design", "flexbox", "css grid"]}
+      ]
+    },
+    "backend": {
+      "display_name": "Backend Technologies",
+      "skills": [
+        {"name": "FastAPI", "aliases": ["fastapi", "fast api"]},
+        {"name": "Node.js", "aliases": ["node", "node.js", "nodejs"]},
+        {"name": "Express.js", "aliases": ["express", "express.js", "expressjs"]},
+        {"name": "Django", "aliases": ["django", "django rest framework", "drf"]},
+        {"name": "Flask", "aliases": ["flask"]},
+        {"name": "Spring Boot", "aliases": ["spring boot", "springboot", "spring framework", "spring"]},
+        {"name": "ASP.NET Core", "aliases": ["asp.net", "asp.net core", ".net core", "dotnet"]},
+        {"name": "GraphQL", "aliases": ["graphql", "apollo graphql"]},
+        {"name": "REST API", "aliases": ["rest", "restful api", "rest api", "rest apis", "restful apis"]},
+        {"name": "Microservices", "aliases": ["microservices", "microservice architecture"]},
+        {"name": "Celery", "aliases": ["celery"]},
+        {"name": "WebSockets", "aliases": ["websocket", "websockets", "socket.io"]}
+      ]
+    },
+    "databases": {
+      "display_name": "Databases & Storage",
+      "skills": [
+        {"name": "MongoDB", "aliases": ["mongodb", "mongo", "mongoose", "nosql"]},
+        {"name": "PostgreSQL", "aliases": ["postgresql", "postgres", "psql"]},
+        {"name": "MySQL", "aliases": ["mysql"]},
+        {"name": "Redis", "aliases": ["redis"]},
+        {"name": "SQLite", "aliases": ["sqlite", "sqlite3"]},
+        {"name": "Oracle Database", "aliases": ["oracle db", "oracle database", "pl/sql"]},
+        {"name": "Microsoft SQL Server", "aliases": ["mssql", "sql server", "t-sql"]},
+        {"name": "Elasticsearch", "aliases": ["elasticsearch", "elastic search", "elk"]},
+        {"name": "Firebase Firestore", "aliases": ["firestore", "firebase", "firebase realtime database"]},
+        {"name": "Cassandra", "aliases": ["cassandra", "apache cassandra"]}
+      ]
+    },
+    "ai_ml": {
+      "display_name": "AI & Machine Learning",
+      "skills": [
+        {"name": "Machine Learning", "aliases": ["machine learning", "ml"]},
+        {"name": "Deep Learning", "aliases": ["deep learning", "dl"]},
+        {"name": "Scikit-Learn", "aliases": ["scikit-learn", "sklearn"]},
+        {"name": "TensorFlow", "aliases": ["tensorflow", "tf"]},
+        {"name": "PyTorch", "aliases": ["pytorch", "torch"]},
+        {"name": "Natural Language Processing", "aliases": ["natural language processing", "nlp"]},
+        {"name": "Computer Vision", "aliases": ["computer vision", "cv", "opencv"]},
+        {"name": "Pandas", "aliases": ["pandas"]},
+        {"name": "NumPy", "aliases": ["numpy"]},
+        {"name": "Large Language Models", "aliases": ["llm", "large language models", "prompt engineering", "langchain", "rag"]},
+        {"name": "Data Visualization", "aliases": ["data visualization", "matplotlib", "seaborn", "plotly", "power bi", "tableau"]},
+        {"name": "Hugging Face", "aliases": ["hugging face", "huggingface", "transformers"]}
+      ]
+    },
+    "cloud_devops": {
+      "display_name": "Cloud & DevOps",
+      "skills": [
+        {"name": "Docker", "aliases": ["docker", "containerization", "containers"]},
+        {"name": "Kubernetes", "aliases": ["kubernetes", "k8s"]},
+        {"name": "AWS", "aliases": ["aws", "amazon web services", "ec2", "s3", "lambda"]},
+        {"name": "Google Cloud Platform", "aliases": ["gcp", "google cloud", "google cloud platform"]},
+        {"name": "Microsoft Azure", "aliases": ["azure", "microsoft azure"]},
+        {"name": "CI/CD", "aliases": ["ci/cd", "continuous integration", "github actions", "gitlab ci", "jenkins"]},
+        {"name": "Linux", "aliases": ["linux", "ubuntu", "bash", "shell scripting"]},
+        {"name": "Terraform", "aliases": ["terraform", "infrastructure as code", "iac"]},
+        {"name": "Nginx", "aliases": ["nginx", "reverse proxy"]}
+      ]
+    },
+    "tools_frameworks": {
+      "display_name": "Tools, Testing & Methodologies",
+      "skills": [
+        {"name": "Git", "aliases": ["git", "github", "gitlab", "version control"]},
+        {"name": "Selenium", "aliases": ["selenium", "selenium webdriver"]},
+        {"name": "Postman", "aliases": ["postman", "api testing"]},
+        {"name": "PyTest", "aliases": ["pytest", "unittest"]},
+        {"name": "JUnit", "aliases": ["junit", "testng"]},
+        {"name": "Jira", "aliases": ["jira", "agile", "scrum"]},
+        {"name": "Cypress", "aliases": ["cypress"]},
+        {"name": "Jest", "aliases": ["jest"]},
+        {"name": "Swagger", "aliases": ["swagger", "openapi"]},
+        {"name": "JMeter", "aliases": ["jmeter", "performance testing"]}
+      ]
+    }
+  }
+}

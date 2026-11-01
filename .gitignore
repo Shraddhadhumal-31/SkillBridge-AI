@@ -1,0 +1,29 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+node_modules/
+.npm/
+dist/
+.vite/
+
+# Database & Storage
+data_store/*.json
+!data_store/.gitkeep
+temp/
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

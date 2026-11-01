@@ -1,0 +1,98 @@
+{
+  "Python": [
+    {"title": "Python for Everybody", "provider": "Coursera / Dr. Chuck", "url": "https://www.py4e.com/", "type": "Interactive Course", "hours": 20},
+    {"title": "Official Python 3 Documentation & Tutorial", "provider": "Python Software Foundation", "url": "https://docs.python.org/3/tutorial/", "type": "Documentation", "hours": 15},
+    {"title": "Core Python Programming Video Series", "provider": "Corey Schafer / YouTube", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyMTDIRhPZluH-60", "type": "Video Series", "hours": 18}
+  ],
+  "FastAPI": [
+    {"title": "FastAPI Official Interactive Tutorial", "provider": "Tiangolo / FastAPI", "url": "https://fastapi.tiangolo.com/tutorial/", "type": "Documentation", "hours": 15},
+    {"title": "Building High-Performance APIs with FastAPI", "provider": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/fastapi-quickstart/", "type": "Tutorial", "hours": 10}
+  ],
+  "Java": [
+    {"title": "Java Programming MOOC (Parts I & II)", "provider": "University of Helsinki", "url": "https://java-programming.mooc.fi/", "type": "Course", "hours": 30},
+    {"title": "Oracle Java Tutorials", "provider": "Oracle", "url": "https://docs.oracle.com/javase/tutorial/", "type": "Documentation", "hours": 20}
+  ],
+  "Spring Boot": [
+    {"title": "Spring Boot Building a RESTful Web Service", "provider": "Spring.io", "url": "https://spring.io/guides/gs/rest-service/", "type": "Guide", "hours": 12},
+    {"title": "Spring Framework Masterclass", "provider": "Baeldung", "url": "https://www.baeldung.com/spring-boot", "type": "Tutorial", "hours": 25}
+  ],
+  "JavaScript": [
+    {"title": "The Modern JavaScript Tutorial", "provider": "JavaScript.info", "url": "https://javascript.info/", "type": "Interactive Tutorial", "hours": 25},
+    {"title": "MDN JavaScript Guide", "provider": "Mozilla Developer Network", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "Documentation", "hours": 20}
+  ],
+  "React.js": [
+    {"title": "React.dev - Quick Start & In-Depth Guides", "provider": "React Team", "url": "https://react.dev/learn", "type": "Documentation", "hours": 20},
+    {"title": "Full Stack Open - React Fundamentals", "provider": "University of Helsinki", "url": "https://fullstackopen.com/en/part1", "type": "Course", "hours": 25}
+  ],
+  "Node.js": [
+    {"title": "Node.js Official Documentation & Learn Hub", "provider": "OpenJS Foundation", "url": "https://nodejs.org/en/learn", "type": "Documentation", "hours": 16},
+    {"title": "Node.js Best Practices Architecture Repository", "provider": "Node Community", "url": "https://github.com/goldbergyoni/nodebestpractices", "type": "Guide", "hours": 12}
+  ],
+  "PostgreSQL": [
+    {"title": "PostgreSQL Tutorial for Beginners", "provider": "PostgreSQL Tutorial", "url": "https://www.postgresqltutorial.com/", "type": "Tutorial", "hours": 14},
+    {"title": "Use The Index, Luke! - SQL Indexing Guide", "provider": "Markus Winand", "url": "https://use-the-index-luke.com/", "type": "Interactive Guide", "hours": 10}
+  ],
+  "MongoDB": [
+    {"title": "MongoDB University - Introduction to MongoDB", "provider": "MongoDB University", "url": "https://learn.mongodb.com/", "type": "Course", "hours": 15},
+    {"title": "MongoDB Manual & CRUD Operations", "provider": "MongoDB Docs", "url": "https://www.mongodb.com/docs/manual/", "type": "Documentation", "hours": 12}
+  ],
+  "SQL": [
+    {"title": "SQL Tutorial for Data Analysis", "provider": "Mode Analytics", "url": "https://mode.com/sql-tutorial/", "type": "Tutorial", "hours": 18},
+    {"title": "SQLZoo Interactive SQL Practice", "provider": "SQLZoo", "url": "https://sqlzoo.net/", "type": "Interactive Practice", "hours": 10}
+  ],
+  "Pandas": [
+    {"title": "Pandas Getting Started Tutorials", "provider": "PyData / Pandas", "url": "https://pandas.pydata.org/docs/getting_started/index.html", "type": "Documentation", "hours": 14},
+    {"title": "10 Minutes to Pandas & Essential Cookbooks", "provider": "Pandas Documentation", "url": "https://pandas.pydata.org/docs/user_guide/10min.html", "type": "Guide", "hours": 8}
+  ],
+  "NumPy": [
+    {"title": "NumPy: the absolute basics for beginners", "provider": "NumPy.org", "url": "https://numpy.org/doc/stable/user/absolute_beginners.html", "type": "Documentation", "hours": 8}
+  ],
+  "Machine Learning": [
+    {"title": "Machine Learning Specialization", "provider": "Andrew Ng / DeepLearning.AI", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "type": "Course", "hours": 35},
+    {"title": "Google Machine Learning Crash Course", "provider": "Google Developers", "url": "https://developers.google.com/machine-learning/crash-course", "type": "Course", "hours": 15}
+  ],
+  "Scikit-Learn": [
+    {"title": "Scikit-Learn Getting Started Guide", "provider": "Scikit-Learn.org", "url": "https://scikit-learn.org/stable/getting_started.html", "type": "Documentation", "hours": 14},
+    {"title": "Applied Machine Learning with Scikit-Learn", "provider": "Inria MOOC", "url": "https://inria.github.io/scikit-learn-mooc/", "type": "Course", "hours": 20}
+  ],
+  "Deep Learning": [
+    {"title": "Practical Deep Learning for Coders", "provider": "fast.ai", "url": "https://course.fast.ai/", "type": "Course", "hours": 30},
+    {"title": "Deep Learning Specialization", "provider": "DeepLearning.AI", "url": "https://www.coursera.org/specializations/deep-learning", "type": "Course", "hours": 35}
+  ],
+  "Selenium": [
+    {"title": "Selenium WebDriver Official Documentation", "provider": "Selenium Project", "url": "https://www.selenium.dev/documentation/webdriver/", "type": "Documentation", "hours": 14},
+    {"title": "Test Automation University - Web UI Automation with Selenium", "provider": "TAU", "url": "https://testautomationu.applitools.com/", "type": "Course", "hours": 16}
+  ],
+  "Postman": [
+    {"title": "Postman API Fundamentals Student Expert", "provider": "Postman Academy", "url": "https://academy.postman.com/", "type": "Certification Course", "hours": 10}
+  ],
+  "PyTest": [
+    {"title": "PyTest Official Documentation", "provider": "pytest-dev", "url": "https://docs.pytest.org/en/stable/", "type": "Documentation", "hours": 8}
+  ],
+  "Git": [
+    {"title": "Pro Git Book (Free Online)", "provider": "Scott Chacon & Ben Straub", "url": "https://git-scm.com/book/en/v2", "type": "Book", "hours": 10},
+    {"title": "Learn Git Branching Interactive Sandbox", "provider": "Lars Vidar", "url": "https://learngitbranching.js.org/", "type": "Interactive Game", "hours": 6}
+  ],
+  "Docker": [
+    {"title": "Docker Curriculum for Beginners", "provider": "Prakhar Srivastav", "url": "https://docker-curriculum.com/", "type": "Tutorial", "hours": 10},
+    {"title": "Play with Docker Interactive Labs", "provider": "Docker", "url": "https://labs.play-with-docker.com/", "type": "Interactive Labs", "hours": 8}
+  ],
+  "Tailwind CSS": [
+    {"title": "Tailwind CSS Documentation & Screencasts", "provider": "Tailwind Labs", "url": "https://tailwindcss.com/docs", "type": "Documentation", "hours": 8}
+  ],
+  "REST API": [
+    {"title": "RESTful API Architectural Constraints & Guide", "provider": "RESTfulAPI.net", "url": "https://restfulapi.net/", "type": "Guide", "hours": 8}
+  ],
+  "Data Visualization": [
+    {"title": "Data Visualization with Python: Seaborn & Matplotlib", "provider": "Real Python", "url": "https://realpython.com/python-matplotlib-guide/", "type": "Guide", "hours": 10}
+  ],
+  "HTML5": [
+    {"title": "HTML: HyperText Markup Language Guide", "provider": "MDN Web Docs", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML", "type": "Documentation", "hours": 10}
+  ],
+  "CSS3": [
+    {"title": "CSS Layout & Modern Techniques", "provider": "MDN Web Docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS", "type": "Documentation", "hours": 12}
+  ],
+  "Jira": [
+    {"title": "Atlassian Agile Coach & Jira Best Practices", "provider": "Atlassian", "url": "https://www.atlassian.com/agile", "type": "Guide", "hours": 6}
+  ]
+}

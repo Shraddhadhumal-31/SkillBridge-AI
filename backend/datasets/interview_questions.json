@@ -1,0 +1,407 @@
+[
+  {
+    "id": "q_py_1",
+    "role_id": "job_python_dev",
+    "skill": "Python",
+    "difficulty": "Beginner",
+    "question": "What is the primary difference between a Python list and a Python tuple?",
+    "options": [
+      "Lists are immutable, while tuples are mutable",
+      "Lists are mutable, while tuples are immutable",
+      "Lists only hold numbers, while tuples hold strings",
+      "Tuples have higher memory overhead than lists"
+    ],
+    "correct_index": 1,
+    "explanation": "In Python, lists are mutable (can be appended, modified, or reordered in-place), whereas tuples are immutable once instantiated, making tuples hashable and slightly more memory-efficient."
+  },
+  {
+    "id": "q_py_2",
+    "role_id": "job_python_dev",
+    "skill": "Python",
+    "difficulty": "Intermediate",
+    "question": "What is the role of the Python GIL (Global Interpreter Lock)?",
+    "options": [
+      "To encrypt Python bytecode before execution",
+      "To prevent multiple native threads from executing Python bytecode simultaneously",
+      "To automatically manage garbage collection across CPU cores",
+      "To link C libraries dynamically into the runtime"
+    ],
+    "correct_index": 1,
+    "explanation": "The GIL is a mutex used by CPython to prevent race conditions in Python's memory management, ensuring only one thread executes Python bytecode at any given moment."
+  },
+  {
+    "id": "q_py_3",
+    "role_id": "job_python_dev",
+    "skill": "FastAPI",
+    "difficulty": "Intermediate",
+    "question": "In FastAPI, how does dependency injection assist in endpoint design?",
+    "options": [
+      "It compiles endpoints into native C binaries",
+      "It allows sharing database sessions, authentication checks, and business logic cleanly via Depends()",
+      "It replaces Pydantic data validation with raw dictionary lookups",
+      "It creates automated UI components in HTML"
+    ],
+    "correct_index": 1,
+    "explanation": "FastAPI's Depends system enables clean, testable dependency injection for shared database sessions, current user authentication, parameter validation, and rate limiting."
+  },
+  {
+    "id": "q_py_4",
+    "role_id": "job_python_dev",
+    "skill": "PostgreSQL",
+    "difficulty": "Intermediate",
+    "question": "Which SQL statement is used to ensure a transaction guarantees Atomicity and Consistency upon multiple writes?",
+    "options": [
+      "BEGIN TRANSACTION ... COMMIT",
+      "EXECUTE CONCURRENTLY",
+      "SELECT WITH LOCKING ONLY",
+      "MERGE AUTOCOMMIT"
+    ],
+    "correct_index": 0,
+    "explanation": "Transactions wrap operations between BEGIN (or START TRANSACTION) and COMMIT, ensuring that if any operation fails, ROLLBACK can preserve ACID guarantees."
+  },
+  {
+    "id": "q_py_5",
+    "role_id": "job_python_dev",
+    "skill": "PyTest",
+    "difficulty": "Intermediate",
+    "question": "What decorator does pytest use to provide reusable setup/teardown resources to test functions?",
+    "options": [
+      "@pytest.mock",
+      "@pytest.fixture",
+      "@pytest.setup",
+      "@pytest.resource"
+    ],
+    "correct_index": 1,
+    "explanation": "The @pytest.fixture decorator defines fixtures that provide modular test contexts, mock data, or database connections with optional yield for teardown."
+  },
+  {
+    "id": "q_java_1",
+    "role_id": "job_java_dev",
+    "skill": "Java",
+    "difficulty": "Beginner",
+    "question": "Why is the String class immutable in Java?",
+    "options": [
+      "For security, synchronization thread-safety, and string pool caching",
+      "Because the JVM cannot allocate dynamic heap memory for characters",
+      "To force developers to use char arrays exclusively",
+      "To prevent inheritance from Object"
+    ],
+    "correct_index": 0,
+    "explanation": "String immutability allows the JVM to share string literals safely in the String Constant Pool, guarantees thread safety without synchronization, and prevents tampering with sensitive parameters like network sockets and filenames."
+  },
+  {
+    "id": "q_java_2",
+    "role_id": "job_java_dev",
+    "skill": "Spring Boot",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between @Component, @Service, and @Repository in Spring Boot?",
+    "options": [
+      "They have completely distinct compilation steps and cannot be swapped",
+      "They are all Spring stereotypes; @Service and @Repository convey semantic layer meaning, with @Repository providing automatic exception translation",
+      "@Component can only be used on interfaces",
+      "@Service disables dependency injection"
+    ],
+    "correct_index": 1,
+    "explanation": "@Service and @Repository are specializations of @Component. In addition to indicating intent (business vs data access), @Repository automatically translates database platform exceptions into Spring's DataAccessException hierarchy."
+  },
+  {
+    "id": "q_java_3",
+    "role_id": "job_java_dev",
+    "skill": "Java",
+    "difficulty": "Advanced",
+    "question": "What happens when you invoke thread.start() versus thread.run() in Java?",
+    "options": [
+      "start() creates a new native OS thread, while run() executes synchronously on the calling thread",
+      "run() executes in parallel, whereas start() schedules execution on the main loop",
+      "Both execute asynchronously on a background thread pool",
+      "start() is deprecated in modern Java"
+    ],
+    "correct_index": 0,
+    "explanation": "Invoking start() allocates a new thread stack and schedules execution with the JVM thread scheduler; directly calling run() simply executes the method like any normal synchronous Java method on the current thread."
+  },
+  {
+    "id": "q_java_4",
+    "role_id": "job_java_dev",
+    "skill": "MySQL",
+    "difficulty": "Intermediate",
+    "question": "What is the key advantage of a B-Tree index over a Hash index in relational databases?",
+    "options": [
+      "B-Tree indexes use zero disk storage",
+      "B-Tree indexes efficiently support range queries (BETWEEN, <, >) and ordering (ORDER BY)",
+      "Hash indexes can index multi-table joins without memory",
+      "B-Trees only work on string columns"
+    ],
+    "correct_index": 1,
+    "explanation": "Hash indexes provide O(1) exact equality lookups (=, IN) but cannot optimize range searches or sorted scans; B-Trees maintain ordered nodes and optimize range queries and sorting."
+  },
+  {
+    "id": "q_fs_1",
+    "role_id": "job_fullstack_dev",
+    "skill": "React.js",
+    "difficulty": "Intermediate",
+    "question": "What problem does the useEffect dependency array solve in React?",
+    "options": [
+      "It determines when the component should be removed from the DOM",
+      "It informs React when to re-synchronize the effect based on changes to referenced variables",
+      "It bundles CSS files into the component tree",
+      "It connects React components directly to MongoDB"
+    ],
+    "correct_index": 1,
+    "explanation": "The dependency array tells React to re-run the effect callback only when one or more of the specified dependencies change between renders, preventing infinite re-render loops."
+  },
+  {
+    "id": "q_fs_2",
+    "role_id": "job_fullstack_dev",
+    "skill": "Node.js",
+    "difficulty": "Intermediate",
+    "question": "How does Node.js handle heavy concurrent I/O operations despite having a single main execution thread?",
+    "options": [
+      "By spawning a new operating system process for each HTTP request",
+      "Via the libuv event loop and non-blocking asynchronous system calls backed by a thread pool",
+      "By executing JavaScript in multi-threaded shared memory",
+      "By compiling JavaScript directly into GPU shaders"
+    ],
+    "correct_index": 1,
+    "explanation": "Node.js utilizes the libuv event loop to offload I/O operations (file, network, DNS) to the OS kernel or an internal C thread pool, invoking callbacks when operations complete."
+  },
+  {
+    "id": "q_fs_3",
+    "role_id": "job_fullstack_dev",
+    "skill": "MongoDB",
+    "difficulty": "Intermediate",
+    "question": "When should an embedded document pattern be preferred over a referenced document pattern in MongoDB?",
+    "options": [
+      "When related data is frequently read together in a 1-to-few relationship that does not grow unbounded",
+      "When documents exceed 16MB in size",
+      "When you need to perform high-frequency many-to-many joins across shards",
+      "Only for storing encrypted user passwords"
+    ],
+    "correct_index": 0,
+    "explanation": "Embedding is ideal for 1-to-few relationships where data is retrieved together, maximizing read performance by avoiding application-level joins while staying within the 16MB document limit."
+  },
+  {
+    "id": "q_fe_1",
+    "role_id": "job_frontend_dev",
+    "skill": "JavaScript",
+    "difficulty": "Intermediate",
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": [
+      "'==' performs type coercion before comparison, whereas '===' requires both value and type equality without coercion",
+      "'===' is only used for comparing Objects",
+      "'==' checks memory reference while '===' checks value",
+      "They are identical aliases introduced in ES6"
+    ],
+    "correct_index": 0,
+    "explanation": "'==' (abstract equality) coerces types if they differ (e.g., '5' == 5 is true), while '===' (strict equality) evaluates to false immediately if the operands are of different types."
+  },
+  {
+    "id": "q_fe_2",
+    "role_id": "job_frontend_dev",
+    "skill": "Tailwind CSS",
+    "difficulty": "Beginner",
+    "question": "What is the primary architectural concept behind utility-first CSS frameworks like Tailwind CSS?",
+    "options": [
+      "Writing scoped Sass files with nested BEM classes",
+      "Composing pre-existing single-purpose utility classes directly within HTML/JSX markup",
+      "Generating runtime CSS stylesheets through JavaScript eval",
+      "Eliminating the need for responsive media queries"
+    ],
+    "correct_index": 1,
+    "explanation": "Tailwind provides low-level utility classes (e.g. flex, pt-4, text-center) that let you build custom designs directly in markup without writing separate custom CSS class names."
+  },
+  {
+    "id": "q_fe_3",
+    "role_id": "job_frontend_dev",
+    "skill": "React.js",
+    "difficulty": "Intermediate",
+    "question": "Why should keys provided to list items in React be unique and stable rather than array indices?",
+    "options": [
+      "Using array indices can cause rendering bugs, incorrect state mapping, and degraded reconciliation performance when items are inserted, deleted, or reordered",
+      "Array indices are converted to floating point numbers by React",
+      "React will refuse to compile JSX if an index is used",
+      "Keys are sent to the backend API automatically"
+    ],
+    "correct_index": 0,
+    "explanation": "React uses keys to identify which items have changed, been added, or removed. If index is used as key, reordering or filtering items leads to mismatched state in uncontrolled component inputs and unnecessary DOM re-renders."
+  },
+  {
+    "id": "q_be_1",
+    "role_id": "job_backend_dev",
+    "skill": "REST API",
+    "difficulty": "Intermediate",
+    "question": "Which HTTP method should be used for an idempotent operation that completely replaces a resource?",
+    "options": [
+      "POST",
+      "PUT",
+      "PATCH",
+      "CONNECT"
+    ],
+    "correct_index": 1,
+    "explanation": "PUT is defined in the HTTP specification as idempotent and is designed to create or completely replace the target resource at the given URI. PATCH is used for partial modifications."
+  },
+  {
+    "id": "q_be_2",
+    "role_id": "job_backend_dev",
+    "skill": "Redis",
+    "difficulty": "Intermediate",
+    "question": "What caching strategy retrieves data from cache first, and queries the database and populates cache only on a cache miss?",
+    "options": [
+      "Cache-Aside (Lazy Loading)",
+      "Write-Through",
+      "Write-Behind (Write-Back)",
+      "Refresh-Ahead"
+    ],
+    "correct_index": 0,
+    "explanation": "In Cache-Aside, the application requests the item from cache. On a miss, it fetches it from the database, stores it in cache with a TTL, and returns it to the client."
+  },
+  {
+    "id": "q_be_3",
+    "role_id": "job_backend_dev",
+    "skill": "PostgreSQL",
+    "difficulty": "Advanced",
+    "question": "What is an index scan versus a sequential scan in relational databases?",
+    "options": [
+      "An index scan reads from disk while sequential scan reads from network",
+      "A sequential scan traverses every row in the table, while an index scan traverses an index tree to locate matching row pointers directly",
+      "Sequential scans are always faster for tables with millions of rows",
+      "Index scans do not support WHERE conditions"
+    ],
+    "correct_index": 1,
+    "explanation": "A sequential scan reads the entire table block by block. An index scan navigates an index (e.g. B-Tree) to retrieve specific tuple IDs, which is dramatically faster for selective queries on large tables."
+  },
+  {
+    "id": "q_da_1",
+    "role_id": "job_data_analyst",
+    "skill": "SQL",
+    "difficulty": "Intermediate",
+    "question": "What is the purpose of the ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) window function in SQL?",
+    "options": [
+      "It deletes duplicate rows automatically from disk",
+      "It assigns a sequential integer to rows within a partition according to specified ordering, without collapsing rows like GROUP BY",
+      "It computes the cumulative sum across the entire database",
+      "It merges columns from two different schemas"
+    ],
+    "correct_index": 1,
+    "explanation": "Window functions perform calculations across a set of table rows related to the current row, maintaining individual row identities while assigning rankings or aggregated values."
+  },
+  {
+    "id": "q_da_2",
+    "role_id": "job_data_analyst",
+    "skill": "Pandas",
+    "difficulty": "Intermediate",
+    "question": "In Pandas, what is the key difference between df.loc and df.iloc?",
+    "options": [
+      "df.loc is label-based indexing, whereas df.iloc is integer position-based indexing",
+      "df.loc operates on rows while df.iloc operates only on columns",
+      "df.iloc is used for SQL connections while df.loc is for CSV files",
+      "There is no difference; they are interchangeable"
+    ],
+    "correct_index": 0,
+    "explanation": "df.loc accesses groups of rows and columns by label names (or boolean arrays), while df.iloc accesses by integer positions (0 to length-1)."
+  },
+  {
+    "id": "q_da_3",
+    "role_id": "job_data_analyst",
+    "skill": "Data Visualization",
+    "difficulty": "Beginner",
+    "question": "Which type of chart is most suitable for visualizing the distribution of a single continuous numerical variable?",
+    "options": [
+      "Pie chart",
+      "Histogram or Box Plot",
+      "Scatter plot with categorical labels",
+      "Stacked Bar chart"
+    ],
+    "correct_index": 1,
+    "explanation": "Histograms group continuous data into bins to reveal skewness, peaks, and spread; box plots display quartiles, median, and outliers clearly."
+  },
+  {
+    "id": "q_ml_1",
+    "role_id": "job_ml_engineer",
+    "skill": "Machine Learning",
+    "difficulty": "Intermediate",
+    "question": "What is the primary indicator of overfitting in a supervised learning model?",
+    "options": [
+      "High training error and high validation error",
+      "Very low training error accompanied by high validation error and poor generalization",
+      "Both training and test metrics converging to the exact same score",
+      "The loss function fails to decrease in the first epoch"
+    ],
+    "correct_index": 1,
+    "explanation": "Overfitting occurs when a model memorizes the training data's noise and idiosyncrasies rather than learning underlying patterns, yielding high training accuracy but poor validation performance."
+  },
+  {
+    "id": "q_ml_2",
+    "role_id": "job_ml_engineer",
+    "skill": "Scikit-Learn",
+    "difficulty": "Intermediate",
+    "question": "Why is it critical to fit scalers (such as StandardScaler) only on the training set and not on the whole dataset before splitting?",
+    "options": [
+      "To avoid data leakage from test data into model training",
+      "Because test data cannot be converted to floats",
+      "Because Scikit-Learn will raise a compilation exception",
+      "To increase training speed by 10x"
+    ],
+    "correct_index": 0,
+    "explanation": "Fitting preprocessing parameters (like mean and variance) on the entire dataset leaks information from the test set into training, resulting in overly optimistic evaluation metrics."
+  },
+  {
+    "id": "q_ml_3",
+    "role_id": "job_ml_engineer",
+    "skill": "Machine Learning",
+    "difficulty": "Intermediate",
+    "question": "When evaluated on an imbalanced dataset where 99% of samples are class 0, why is Accuracy a misleading metric?",
+    "options": [
+      "Because accuracy cannot be represented as a percentage",
+      "A trivial model that always predicts class 0 achieves 99% accuracy while failing to detect any positive instances; Precision, Recall, and F1-score are necessary",
+      "Accuracy only works for regression problems",
+      "Scikit-learn does not support accuracy on imbalanced classes"
+    ],
+    "correct_index": 1,
+    "explanation": "In skewed distributions, high accuracy gives a false impression of model performance. Precision, Recall, PR-AUC, and F1-Score reflect how well the minority class is identified."
+  },
+  {
+    "id": "q_st_1",
+    "role_id": "job_software_tester",
+    "skill": "Selenium",
+    "difficulty": "Intermediate",
+    "question": "Why is using Explicit Waits preferred over Implicit Waits or Thread.sleep() in Selenium WebDriver?",
+    "options": [
+      "Explicit waits pause execution for a fixed arbitrary amount of time regardless of DOM state",
+      "Explicit waits poll dynamically until a specific condition (e.g., elementToBeClickable) is satisfied up to a timeout, reducing flakiness and runtime",
+      "Implicit waits cannot be used in Python",
+      "Thread.sleep() accelerates browser rendering"
+    ],
+    "correct_index": 1,
+    "explanation": "Explicit waits evaluate target conditions dynamically and resume as soon as the element satisfies the condition, avoiding wasted time and race conditions common with hardcoded sleeps."
+  },
+  {
+    "id": "q_st_2",
+    "role_id": "job_software_tester",
+    "skill": "Postman",
+    "difficulty": "Beginner",
+    "question": "In API testing, what HTTP status code should be expected when a client submits an invalid request payload that fails schema validation?",
+    "options": [
+      "200 OK",
+      "400 Bad Request",
+      "404 Not Found",
+      "500 Internal Server Error"
+    ],
+    "correct_index": 1,
+    "explanation": "400 Bad Request indicates that the server cannot process the request due to a client error, such as malformed request syntax, missing required fields, or invalid payload schema."
+  },
+  {
+    "id": "q_st_3",
+    "role_id": "job_software_tester",
+    "skill": "PyTest",
+    "difficulty": "Intermediate",
+    "question": "What is the purpose of @pytest.mark.parametrize?",
+    "options": [
+      "To test multiple combinations of inputs and expected outputs without duplicating test code",
+      "To convert Python tests into Java bytecode",
+      "To run tests sequentially across separate physical machines",
+      "To disable assertions during debugging"
+    ],
+    "correct_index": 0,
+    "explanation": "Parametrization in pytest allows running a single test function multiple times with varied arguments and assertions, keeping test suites DRY (Don't Repeat Yourself)."
+  }
+]
